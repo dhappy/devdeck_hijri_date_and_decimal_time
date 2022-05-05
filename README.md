@@ -1,12 +1,12 @@
 # DevDeck - Key Light
-![CI](https://github.com/jamesridgway/devdeck-key-light/workflows/CI/badge.svg?branch=main)
+![CI](https://github.com/jamesridgway/devdeck-hijri/workflows/CI/badge.svg?branch=main)
 
 Elgato Key Light controls for [DevDeck](https://github.com/jamesridgway/devdeck).
 
 ## Installing
 Simplify install *DevDeck - Key Light* into the same python environment that you have installed DevDeck.
 
-    pip install devdeck-key-light
+    pip install devdeck-hijri
 
 You can then update your DevDeck configuration to use decks and controls from this package.
 
@@ -25,7 +25,7 @@ Example configuration:
         name: devdeck.decks.single_page_deck_controller.SinglePageDeckController
         settings:
           controls:
-            - name: devdeck_key_light.key_light_toggle_control.KeyLightToggleControl
+            - name: devdeck_hijri.hijri_toggle_control.HijriToggleControl
               key: 0
               settings:
                 host: 192.168.1.23

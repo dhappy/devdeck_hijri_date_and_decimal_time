@@ -15,13 +15,13 @@ with open('requirements.txt') as f:
     install_reqs = f.read().splitlines()
 
 setup(
-    name='devdeck_key_light',
+    name='devdeck_hijri',
     version=get_version(),
-    description="Elgato Key Light controls for DevDeck.",
+    description="Displays Date on Hijri with Decimal Time.",
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    author='James Ridgway',
-    url='https://github.com/jamesridgway/devdeck-key-light',
+    author='dysbulic and tenfinney',
+    url='https://github.com/dhappy/devdeck_hijri_date_and_decimal_time',
     license='MIT',
     packages=find_packages(),
     include_package_data=True,
